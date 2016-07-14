@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B1692F51D36BBE000F607D8 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1692F11D36BBE000F607D8 /* Fabric.framework */; };
+		2B1692F61D36BBE000F607D8 /* DigitsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1692F21D36BBE000F607D8 /* DigitsKit.framework */; };
+		2B1692F71D36BBE000F607D8 /* DigitsKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2B1692F31D36BBE000F607D8 /* DigitsKitResources.bundle */; };
+		2B1692F81D36BBE000F607D8 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1692F41D36BBE000F607D8 /* TwitterCore.framework */; };
+		2B4CB0F81D36CE250024A6AC /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CB0F71D36CE250024A6AC /* Login.m */; };
+		2B6E607E1D2D94B200028CA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B6E607D1D2D94B200028CA2 /* GoogleService-Info.plist */; };
+		2B805E791D35E9DF004AFF27 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B805E781D35E9DF004AFF27 /* libz.tbd */; };
+		2B805E7B1D35E9EC004AFF27 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B805E7A1D35E9EC004AFF27 /* libstdc++.tbd */; };
+		2B8653971D21867E003FDEC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8653961D21867E003FDEC2 /* main.m */; };
+		2B86539A1D21867E003FDEC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8653991D21867E003FDEC2 /* AppDelegate.m */; };
+		2B86539D1D21867E003FDEC2 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B86539C1D21867E003FDEC2 /* Home.m */; };
+		2B8653A01D21867E003FDEC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B86539E1D21867E003FDEC2 /* Main.storyboard */; };
+		2B8653A31D21867E003FDEC2 /* NavigationControllerRoHe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B8653A11D21867E003FDEC2 /* NavigationControllerRoHe.xcdatamodeld */; };
+		2B8653A51D21867E003FDEC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653A41D21867E003FDEC2 /* Assets.xcassets */; };
+		2B8653A81D21867E003FDEC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653A61D21867E003FDEC2 /* LaunchScreen.storyboard */; };
+		2B8653BA1D219AFF003FDEC2 /* cellHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8653B81D219AFF003FDEC2 /* cellHome.m */; };
+		2B8653BB1D219AFF003FDEC2 /* cellHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653B91D219AFF003FDEC2 /* cellHome.xib */; };
+		2B8653C21D21B280003FDEC2 /* colima.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653BD1D21B280003FDEC2 /* colima.png */; };
+		2B8653C31D21B280003FDEC2 /* durango.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653BE1D21B280003FDEC2 /* durango.png */; };
+		2B8653C41D21B280003FDEC2 /* jalisco.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653BF1D21B280003FDEC2 /* jalisco.png */; };
+		2B8653C51D21B280003FDEC2 /* nayarit.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653C01D21B280003FDEC2 /* nayarit.png */; };
+		2B8653C61D21B280003FDEC2 /* sinaloa.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653C11D21B280003FDEC2 /* sinaloa.png */; };
+		2B8653C91D21C1D2003FDEC2 /* StateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8653C81D21C1D2003FDEC2 /* StateViewController.m */; };
+		2B8653CC1D21E509003FDEC2 /* MunicipioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8653CB1D21E509003FDEC2 /* MunicipioViewController.m */; };
+		2B8653D01D21E591003FDEC2 /* cellStates.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8653CE1D21E591003FDEC2 /* cellStates.m */; };
+		2B8653D11D21E591003FDEC2 /* cellStates.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653CF1D21E591003FDEC2 /* cellStates.xib */; };
+		2B8653DC1D220468003FDEC2 /* ameca.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653D71D220468003FDEC2 /* ameca.png */; };
+		2B8653DD1D220468003FDEC2 /* colotlan.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653D81D220468003FDEC2 /* colotlan.png */; };
+		2B8653DE1D220468003FDEC2 /* guadalajara.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653D91D220468003FDEC2 /* guadalajara.png */; };
+		2B8653DF1D220468003FDEC2 /* mascota.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653DA1D220468003FDEC2 /* mascota.gif */; };
+		2B8653E01D220468003FDEC2 /* puertovallarta.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653DB1D220468003FDEC2 /* puertovallarta.png */; };
+		2B8653E61D22083A003FDEC2 /* armeria.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653E11D22083A003FDEC2 /* armeria.png */; };
+		2B8653E71D22083A003FDEC2 /* colima.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653E21D22083A003FDEC2 /* colima.png */; };
+		2B8653E81D22083A003FDEC2 /* comala.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653E31D22083A003FDEC2 /* comala.png */; };
+		2B8653E91D22083A003FDEC2 /* manzanillo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653E41D22083A003FDEC2 /* manzanillo.jpg */; };
+		2B8653EA1D22083A003FDEC2 /* tecoman.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653E51D22083A003FDEC2 /* tecoman.png */; };
+		2B8653F01D220B33003FDEC2 /* culican.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653EB1D220B33003FDEC2 /* culican.png */; };
+		2B8653F11D220B33003FDEC2 /* guamuchil.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653EC1D220B33003FDEC2 /* guamuchil.gif */; };
+		2B8653F21D220B33003FDEC2 /* guasave.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653ED1D220B33003FDEC2 /* guasave.png */; };
+		2B8653F31D220B33003FDEC2 /* losmochis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653EE1D220B33003FDEC2 /* losmochis.jpg */; };
+		2B8653F41D220B33003FDEC2 /* mazatlan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B8653EF1D220B33003FDEC2 /* mazatlan.jpg */; };
+		2BB346AD1D2D36D4002AEFA9 /* MapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB346AC1D2D36D4002AEFA9 /* MapsViewController.m */; };
+		2EE1325018CE0CAC9173E620 /* libPods-PushExampleRoHe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F3BF239942A627875239FC2 /* libPods-PushExampleRoHe.a */; };
+		61DADAD458B91F0EE4AE0FC3 /* libPods-GoogleMapsRoHe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF77BCA857956BAE9F2D378 /* libPods-GoogleMapsRoHe.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FF77BCA857956BAE9F2D378 /* libPods-GoogleMapsRoHe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleMapsRoHe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C12194C9A42B44E1776A32 /* Pods-PushExampleRoHe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushExampleRoHe.release.xcconfig"; path = "Pods/Target Support Files/Pods-PushExampleRoHe/Pods-PushExampleRoHe.release.xcconfig"; sourceTree = "<group>"; };
+		2B1692F11D36BBE000F607D8 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		2B1692F21D36BBE000F607D8 /* DigitsKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DigitsKit.framework; sourceTree = "<group>"; };
+		2B1692F31D36BBE000F607D8 /* DigitsKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DigitsKitResources.bundle; path = DigitsKit.framework/Versions/A/Resources/DigitsKitResources.bundle; sourceTree = "<group>"; };
+		2B1692F41D36BBE000F607D8 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		2B4CB0F61D36CE250024A6AC /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		2B4CB0F71D36CE250024A6AC /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
+		2B6E607D1D2D94B200028CA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2B805E781D35E9DF004AFF27 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2B805E7A1D35E9EC004AFF27 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		2B8653921D21867E003FDEC2 /* PushExampleRoHe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushExampleRoHe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8653961D21867E003FDEC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B8653981D21867E003FDEC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B8653991D21867E003FDEC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B86539B1D21867E003FDEC2 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		2B86539C1D21867E003FDEC2 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		2B86539F1D21867E003FDEC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B8653A21D21867E003FDEC2 /* NavigationControllerRoHe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NavigationControllerRoHe.xcdatamodel; sourceTree = "<group>"; };
+		2B8653A41D21867E003FDEC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B8653A71D21867E003FDEC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B8653A91D21867E003FDEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B8653B71D219AFF003FDEC2 /* cellHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellHome.h; sourceTree = "<group>"; };
+		2B8653B81D219AFF003FDEC2 /* cellHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellHome.m; sourceTree = "<group>"; };
+		2B8653B91D219AFF003FDEC2 /* cellHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellHome.xib; sourceTree = "<group>"; };
+		2B8653BD1D21B280003FDEC2 /* colima.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colima.png; path = imgsEstadosMexico/colima.png; sourceTree = "<group>"; };
+		2B8653BE1D21B280003FDEC2 /* durango.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = durango.png; path = imgsEstadosMexico/durango.png; sourceTree = "<group>"; };
+		2B8653BF1D21B280003FDEC2 /* jalisco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jalisco.png; path = imgsEstadosMexico/jalisco.png; sourceTree = "<group>"; };
+		2B8653C01D21B280003FDEC2 /* nayarit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nayarit.png; path = imgsEstadosMexico/nayarit.png; sourceTree = "<group>"; };
+		2B8653C11D21B280003FDEC2 /* sinaloa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sinaloa.png; path = imgsEstadosMexico/sinaloa.png; sourceTree = "<group>"; };
+		2B8653C71D21C1D2003FDEC2 /* StateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateViewController.h; sourceTree = "<group>"; };
+		2B8653C81D21C1D2003FDEC2 /* StateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateViewController.m; sourceTree = "<group>"; };
+		2B8653CA1D21E509003FDEC2 /* MunicipioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MunicipioViewController.h; sourceTree = "<group>"; };
+		2B8653CB1D21E509003FDEC2 /* MunicipioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MunicipioViewController.m; sourceTree = "<group>"; };
+		2B8653CD1D21E591003FDEC2 /* cellStates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellStates.h; sourceTree = "<group>"; };
+		2B8653CE1D21E591003FDEC2 /* cellStates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellStates.m; sourceTree = "<group>"; };
+		2B8653CF1D21E591003FDEC2 /* cellStates.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellStates.xib; sourceTree = "<group>"; };
+		2B8653D71D220468003FDEC2 /* ameca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ameca.png; path = municipiosJalisco/ameca.png; sourceTree = "<group>"; };
+		2B8653D81D220468003FDEC2 /* colotlan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colotlan.png; path = municipiosJalisco/colotlan.png; sourceTree = "<group>"; };
+		2B8653D91D220468003FDEC2 /* guadalajara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guadalajara.png; path = municipiosJalisco/guadalajara.png; sourceTree = "<group>"; };
+		2B8653DA1D220468003FDEC2 /* mascota.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = mascota.gif; path = municipiosJalisco/mascota.gif; sourceTree = "<group>"; };
+		2B8653DB1D220468003FDEC2 /* puertovallarta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = puertovallarta.png; path = municipiosJalisco/puertovallarta.png; sourceTree = "<group>"; };
+		2B8653E11D22083A003FDEC2 /* armeria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = armeria.png; path = municipiosColima/armeria.png; sourceTree = "<group>"; };
+		2B8653E21D22083A003FDEC2 /* colima.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colima.png; path = municipiosColima/colima.png; sourceTree = "<group>"; };
+		2B8653E31D22083A003FDEC2 /* comala.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = comala.png; path = municipiosColima/comala.png; sourceTree = "<group>"; };
+		2B8653E41D22083A003FDEC2 /* manzanillo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = manzanillo.jpg; path = municipiosColima/manzanillo.jpg; sourceTree = "<group>"; };
+		2B8653E51D22083A003FDEC2 /* tecoman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tecoman.png; path = municipiosColima/tecoman.png; sourceTree = "<group>"; };
+		2B8653EB1D220B33003FDEC2 /* culican.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = culican.png; path = municipiosSinaloa/culican.png; sourceTree = "<group>"; };
+		2B8653EC1D220B33003FDEC2 /* guamuchil.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = guamuchil.gif; path = municipiosSinaloa/guamuchil.gif; sourceTree = "<group>"; };
+		2B8653ED1D220B33003FDEC2 /* guasave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guasave.png; path = municipiosSinaloa/guasave.png; sourceTree = "<group>"; };
+		2B8653EE1D220B33003FDEC2 /* losmochis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = losmochis.jpg; path = municipiosSinaloa/losmochis.jpg; sourceTree = "<group>"; };
+		2B8653EF1D220B33003FDEC2 /* mazatlan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mazatlan.jpg; path = municipiosSinaloa/mazatlan.jpg; sourceTree = "<group>"; };
+		2BB346AB1D2D36D4002AEFA9 /* MapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapsViewController.h; sourceTree = "<group>"; };
+		2BB346AC1D2D36D4002AEFA9 /* MapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapsViewController.m; sourceTree = "<group>"; };
+		546AEFF3081CF0C342101F32 /* Pods-GoogleMapsRoHe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsRoHe.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMapsRoHe/Pods-GoogleMapsRoHe.release.xcconfig"; sourceTree = "<group>"; };
+		6F3BF239942A627875239FC2 /* libPods-PushExampleRoHe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PushExampleRoHe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12B0E61DCE3EA7F4506679A /* Pods-PushExampleRoHe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushExampleRoHe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PushExampleRoHe/Pods-PushExampleRoHe.debug.xcconfig"; sourceTree = "<group>"; };
+		F02F882278FDCEB2F45BED1B /* Pods-GoogleMapsRoHe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsRoHe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMapsRoHe/Pods-GoogleMapsRoHe.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B86538F1D21867E003FDEC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B805E7B1D35E9EC004AFF27 /* libstdc++.tbd in Frameworks */,
+				2B1692F51D36BBE000F607D8 /* Fabric.framework in Frameworks */,
+				2B1692F81D36BBE000F607D8 /* TwitterCore.framework in Frameworks */,
+				2B805E791D35E9DF004AFF27 /* libz.tbd in Frameworks */,
+				2B1692F61D36BBE000F607D8 /* DigitsKit.framework in Frameworks */,
+				61DADAD458B91F0EE4AE0FC3 /* libPods-GoogleMapsRoHe.a in Frameworks */,
+				2EE1325018CE0CAC9173E620 /* libPods-PushExampleRoHe.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AF45E7B417A501F382DA7A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B805E7A1D35E9EC004AFF27 /* libstdc++.tbd */,
+				2B805E781D35E9DF004AFF27 /* libz.tbd */,
+				0FF77BCA857956BAE9F2D378 /* libPods-GoogleMapsRoHe.a */,
+				6F3BF239942A627875239FC2 /* libPods-PushExampleRoHe.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B8653891D21867E003FDEC2 = {
+			isa = PBXGroup;
+			children = (
+				2B1692F11D36BBE000F607D8 /* Fabric.framework */,
+				2B1692F21D36BBE000F607D8 /* DigitsKit.framework */,
+				2B1692F31D36BBE000F607D8 /* DigitsKitResources.bundle */,
+				2B1692F41D36BBE000F607D8 /* TwitterCore.framework */,
+				2B8653941D21867E003FDEC2 /* PushExampleRoHe */,
+				2B8653931D21867E003FDEC2 /* Products */,
+				E7BEF1D645BF8D300DAB82C4 /* Pods */,
+				1AF45E7B417A501F382DA7A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B8653931D21867E003FDEC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B8653921D21867E003FDEC2 /* PushExampleRoHe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B8653941D21867E003FDEC2 /* PushExampleRoHe */ = {
+			isa = PBXGroup;
+			children = (
+				2B8653B01D2186AC003FDEC2 /* Main */,
+				2B8653AF1D218692003FDEC2 /* Controller */,
+				2B8653B11D219A56003FDEC2 /* Cells */,
+				2B8653BC1D21B208003FDEC2 /* Imgs */,
+				2B86539E1D21867E003FDEC2 /* Main.storyboard */,
+				2B8653A41D21867E003FDEC2 /* Assets.xcassets */,
+				2B8653A61D21867E003FDEC2 /* LaunchScreen.storyboard */,
+				2B6E607D1D2D94B200028CA2 /* GoogleService-Info.plist */,
+				2B8653A91D21867E003FDEC2 /* Info.plist */,
+				2B8653A11D21867E003FDEC2 /* NavigationControllerRoHe.xcdatamodeld */,
+				2B8653951D21867E003FDEC2 /* Supporting Files */,
+			);
+			name = PushExampleRoHe;
+			path = NavigationControllerRoHe;
+			sourceTree = "<group>";
+		};
+		2B8653951D21867E003FDEC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B8653961D21867E003FDEC2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B8653AF1D218692003FDEC2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B86539B1D21867E003FDEC2 /* Home.h */,
+				2B86539C1D21867E003FDEC2 /* Home.m */,
+				2B8653C71D21C1D2003FDEC2 /* StateViewController.h */,
+				2B8653C81D21C1D2003FDEC2 /* StateViewController.m */,
+				2B8653CA1D21E509003FDEC2 /* MunicipioViewController.h */,
+				2B8653CB1D21E509003FDEC2 /* MunicipioViewController.m */,
+				2BB346AB1D2D36D4002AEFA9 /* MapsViewController.h */,
+				2BB346AC1D2D36D4002AEFA9 /* MapsViewController.m */,
+				2B4CB0F61D36CE250024A6AC /* Login.h */,
+				2B4CB0F71D36CE250024A6AC /* Login.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2B8653B01D2186AC003FDEC2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2B8653981D21867E003FDEC2 /* AppDelegate.h */,
+				2B8653991D21867E003FDEC2 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		2B8653B11D219A56003FDEC2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2B8653B71D219AFF003FDEC2 /* cellHome.h */,
+				2B8653B81D219AFF003FDEC2 /* cellHome.m */,
+				2B8653B91D219AFF003FDEC2 /* cellHome.xib */,
+				2B8653CD1D21E591003FDEC2 /* cellStates.h */,
+				2B8653CE1D21E591003FDEC2 /* cellStates.m */,
+				2B8653CF1D21E591003FDEC2 /* cellStates.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		2B8653BC1D21B208003FDEC2 /* Imgs */ = {
+			isa = PBXGroup;
+			children = (
+				2B8653D61D2203A9003FDEC2 /* imgColima */,
+				2B8653D41D220398003FDEC2 /* imgSinaloa */,
+				2B8653D21D220389003FDEC2 /* imgJalisco */,
+				2B8653BD1D21B280003FDEC2 /* colima.png */,
+				2B8653BE1D21B280003FDEC2 /* durango.png */,
+				2B8653BF1D21B280003FDEC2 /* jalisco.png */,
+				2B8653C01D21B280003FDEC2 /* nayarit.png */,
+				2B8653C11D21B280003FDEC2 /* sinaloa.png */,
+			);
+			name = Imgs;
+			sourceTree = "<group>";
+		};
+		2B8653D21D220389003FDEC2 /* imgJalisco */ = {
+			isa = PBXGroup;
+			children = (
+				2B8653D71D220468003FDEC2 /* ameca.png */,
+				2B8653D81D220468003FDEC2 /* colotlan.png */,
+				2B8653D91D220468003FDEC2 /* guadalajara.png */,
+				2B8653DA1D220468003FDEC2 /* mascota.gif */,
+				2B8653DB1D220468003FDEC2 /* puertovallarta.png */,
+			);
+			name = imgJalisco;
+			sourceTree = "<group>";
+		};
+		2B8653D41D220398003FDEC2 /* imgSinaloa */ = {
+			isa = PBXGroup;
+			children = (
+				2B8653EB1D220B33003FDEC2 /* culican.png */,
+				2B8653EC1D220B33003FDEC2 /* guamuchil.gif */,
+				2B8653ED1D220B33003FDEC2 /* guasave.png */,
+				2B8653EE1D220B33003FDEC2 /* losmochis.jpg */,
+				2B8653EF1D220B33003FDEC2 /* mazatlan.jpg */,
+			);
+			name = imgSinaloa;
+			sourceTree = "<group>";
+		};
+		2B8653D61D2203A9003FDEC2 /* imgColima */ = {
+			isa = PBXGroup;
+			children = (
+				2B8653E11D22083A003FDEC2 /* armeria.png */,
+				2B8653E21D22083A003FDEC2 /* colima.png */,
+				2B8653E31D22083A003FDEC2 /* comala.png */,
+				2B8653E41D22083A003FDEC2 /* manzanillo.jpg */,
+				2B8653E51D22083A003FDEC2 /* tecoman.png */,
+			);
+			name = imgColima;
+			sourceTree = "<group>";
+		};
+		E7BEF1D645BF8D300DAB82C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F02F882278FDCEB2F45BED1B /* Pods-GoogleMapsRoHe.debug.xcconfig */,
+				546AEFF3081CF0C342101F32 /* Pods-GoogleMapsRoHe.release.xcconfig */,
+				D12B0E61DCE3EA7F4506679A /* Pods-PushExampleRoHe.debug.xcconfig */,
+				24C12194C9A42B44E1776A32 /* Pods-PushExampleRoHe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B8653911D21867E003FDEC2 /* PushExampleRoHe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8653AC1D21867E003FDEC2 /* Build configuration list for PBXNativeTarget "PushExampleRoHe" */;
+			buildPhases = (
+				CB94DF2CDEF6EEF13F8B40B6 /* [CP] Check Pods Manifest.lock */,
+				2B86538E1D21867E003FDEC2 /* Sources */,
+				2B86538F1D21867E003FDEC2 /* Frameworks */,
+				2B8653901D21867E003FDEC2 /* Resources */,
+				7AC1EA4B04C849A7448B9D76 /* [CP] Embed Pods Frameworks */,
+				E4306FD6B2B98F3002D27B08 /* [CP] Copy Pods Resources */,
+				2B1692F01D36BA2600F607D8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushExampleRoHe;
+			productName = NavigationControllerRoHe;
+			productReference = 2B8653921D21867E003FDEC2 /* PushExampleRoHe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B86538A1D21867E003FDEC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = RobertoHerrera;
+				TargetAttributes = {
+					2B8653911D21867E003FDEC2 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = PQJ98DU98S;
+					};
+				};
+			};
+			buildConfigurationList = 2B86538D1D21867E003FDEC2 /* Build configuration list for PBXProject "PushExampleRoHe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B8653891D21867E003FDEC2;
+			productRefGroup = 2B8653931D21867E003FDEC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B8653911D21867E003FDEC2 /* PushExampleRoHe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B8653901D21867E003FDEC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8653C21D21B280003FDEC2 /* colima.png in Resources */,
+				2B8653E71D22083A003FDEC2 /* colima.png in Resources */,
+				2B8653D11D21E591003FDEC2 /* cellStates.xib in Resources */,
+				2B8653E01D220468003FDEC2 /* puertovallarta.png in Resources */,
+				2B8653DC1D220468003FDEC2 /* ameca.png in Resources */,
+				2B8653EA1D22083A003FDEC2 /* tecoman.png in Resources */,
+				2B8653C61D21B280003FDEC2 /* sinaloa.png in Resources */,
+				2B8653DE1D220468003FDEC2 /* guadalajara.png in Resources */,
+				2B8653A81D21867E003FDEC2 /* LaunchScreen.storyboard in Resources */,
+				2B8653E81D22083A003FDEC2 /* comala.png in Resources */,
+				2B8653F41D220B33003FDEC2 /* mazatlan.jpg in Resources */,
+				2B8653F11D220B33003FDEC2 /* guamuchil.gif in Resources */,
+				2B8653F21D220B33003FDEC2 /* guasave.png in Resources */,
+				2B6E607E1D2D94B200028CA2 /* GoogleService-Info.plist in Resources */,
+				2B8653C41D21B280003FDEC2 /* jalisco.png in Resources */,
+				2B8653E91D22083A003FDEC2 /* manzanillo.jpg in Resources */,
+				2B8653DF1D220468003FDEC2 /* mascota.gif in Resources */,
+				2B1692F71D36BBE000F607D8 /* DigitsKitResources.bundle in Resources */,
+				2B8653A51D21867E003FDEC2 /* Assets.xcassets in Resources */,
+				2B8653F01D220B33003FDEC2 /* culican.png in Resources */,
+				2B8653BB1D219AFF003FDEC2 /* cellHome.xib in Resources */,
+				2B8653C31D21B280003FDEC2 /* durango.png in Resources */,
+				2B8653C51D21B280003FDEC2 /* nayarit.png in Resources */,
+				2B8653A01D21867E003FDEC2 /* Main.storyboard in Resources */,
+				2B8653F31D220B33003FDEC2 /* losmochis.jpg in Resources */,
+				2B8653DD1D220468003FDEC2 /* colotlan.png in Resources */,
+				2B8653E61D22083A003FDEC2 /* armeria.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B1692F01D36BA2600F607D8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run b0fb1946dd5d268feedf20c11b95a852adb8f046 0f1c3753b0d94762c118cbe9ae4dd62500a9480a1243067855e38a8072e2b9a1";
+		};
+		7AC1EA4B04C849A7448B9D76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushExampleRoHe/Pods-PushExampleRoHe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB94DF2CDEF6EEF13F8B40B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4306FD6B2B98F3002D27B08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushExampleRoHe/Pods-PushExampleRoHe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B86538E1D21867E003FDEC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B86539D1D21867E003FDEC2 /* Home.m in Sources */,
+				2B86539A1D21867E003FDEC2 /* AppDelegate.m in Sources */,
+				2B8653C91D21C1D2003FDEC2 /* StateViewController.m in Sources */,
+				2B8653D01D21E591003FDEC2 /* cellStates.m in Sources */,
+				2B8653971D21867E003FDEC2 /* main.m in Sources */,
+				2B4CB0F81D36CE250024A6AC /* Login.m in Sources */,
+				2BB346AD1D2D36D4002AEFA9 /* MapsViewController.m in Sources */,
+				2B8653BA1D219AFF003FDEC2 /* cellHome.m in Sources */,
+				2B8653CC1D21E509003FDEC2 /* MunicipioViewController.m in Sources */,
+				2B8653A31D21867E003FDEC2 /* NavigationControllerRoHe.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B86539E1D21867E003FDEC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B86539F1D21867E003FDEC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B8653A61D21867E003FDEC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B8653A71D21867E003FDEC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B8653AA1D21867E003FDEC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B8653AB1D21867E003FDEC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B8653AD1D21867E003FDEC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D12B0E61DCE3EA7F4506679A /* Pods-PushExampleRoHe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = NavigationControllerRoHe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoHe.PushExampleRoHe;
+				PRODUCT_NAME = PushExampleRoHe;
+			};
+			name = Debug;
+		};
+		2B8653AE1D21867E003FDEC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C12194C9A42B44E1776A32 /* Pods-PushExampleRoHe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = NavigationControllerRoHe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoHe.PushExampleRoHe;
+				PRODUCT_NAME = PushExampleRoHe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B86538D1D21867E003FDEC2 /* Build configuration list for PBXProject "PushExampleRoHe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8653AA1D21867E003FDEC2 /* Debug */,
+				2B8653AB1D21867E003FDEC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B8653AC1D21867E003FDEC2 /* Build configuration list for PBXNativeTarget "PushExampleRoHe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8653AD1D21867E003FDEC2 /* Debug */,
+				2B8653AE1D21867E003FDEC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B8653A11D21867E003FDEC2 /* NavigationControllerRoHe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B8653A21D21867E003FDEC2 /* NavigationControllerRoHe.xcdatamodel */,
+			);
+			currentVersion = 2B8653A21D21867E003FDEC2 /* NavigationControllerRoHe.xcdatamodel */;
+			path = NavigationControllerRoHe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2B86538A1D21867E003FDEC2 /* Project object */;
+}
